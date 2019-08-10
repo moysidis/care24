@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Care24",
+    "description": "Vårdpersonal",
+    "slug": "care24",
+    "privacy": "public",
+    "scheme": "care24",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "se.care24.care24",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Care24 behöver veta din plats för att underlätta sökningar och ge mera relevanta resultat som passar bättre dina behov.",
+        "NSCameraUsageDescription": "Care24 behöver använda din kamera för att kunna ta bilder för din profil."
+      }
+    },
+    "android": {
+      "package": "se.care24.care24",
+      "versionCode": 2
+    }
+  }
+}
